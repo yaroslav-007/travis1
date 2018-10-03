@@ -2,4 +2,6 @@ language: generic
 dist: xenial
 sudo: required
 script:
-- bash ./Test.sh:w
+- bash ./Test.sh
+- bash ./Bye.sh
+
